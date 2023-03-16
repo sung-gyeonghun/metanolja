@@ -1,0 +1,720 @@
+.board_outline {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* .qna_img_div {
+	 width: 100%;
+}
+
+.qna_img {
+	 max-width: 100%;
+	 height: auto;
+} */
+
+.board_title {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 19.5px;
+  color: #333;
+  letter-spacing: 0.2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.board_oneqa {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+}
+
+.board_oneqa > input {
+  width: 110px;
+  height: 35px;
+  text-indent: 0px;
+  border: 0;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  cursor: pointer;
+  background-color: #494949;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  letter-spacing: 0.2px;
+  border-radius: 80px 80px;
+}
+
+.qna_search {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.qna_search2 {
+  height: 26px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 13.5px;
+  cursor: pointer;
+  border: 0;
+  background-color: #9a9a9a;
+  color: white;
+}
+
+.input-group-addon:hover {
+	cursor:pointer;
+}
+
+.li_on {
+  background-color: #999;
+  color: white !important;
+}
+
+.board_list {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-top: 40px;
+}
+
+.board_list > dl {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 510;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.board_list > dl > dd {
+  height: 35px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.board_list > dl > dd:nth-child(1) {
+  width: 100px;
+}
+
+.board_list > dl > dd:nth-child(2) {
+  width: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.board_list > dl > dd:nth-child(3) {
+  width: 120px;
+}
+
+.board_list > dl > dd:nth-child(4) {
+  width: 100px;
+}
+
+.board_list > dl > dd:nth-child(5) {
+  width: 100px;
+}
+
+.board_list > dl:nth-child(1) {
+  border-top: 1.5px solid #777;
+  border-bottom: 1px solid #777;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.board_list > dl:nth-child(1):nth-child(3) {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: none;
+}
+
+.board_list > dl:last-child {
+  border-bottom: 1px solid #777;
+}
+
+.board_pg {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  line-height: 60px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #333;
+  letter-spacing: 0.2px;
+}
+
+.board_pg > ul {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+.board_pg > ul > li {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #333;
+  display: inline-block;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.board_pg > ul > li:nth-child(1) {
+  background-color: #333;
+  color: white;
+}
+
+.page-link {
+	color: #4d4d4d;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section_subpage {
+  height: auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444;
+  letter-spacing: 0.2px;
+}
+
+.write_outline {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.write_title {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  margin-bottom: 50px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 550;
+  font-size: 19px;
+  color: #444;
+  letter-spacing: 0.2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.write_qa {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 2px solid #aaa;
+}
+
+.need_write > li {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.need_write > li > span {
+  width: 150px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #444;
+  letter-spacing: 0.2px;
+}
+
+.need_write > li > label:nth-of-type(1) {
+  width: 850px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #444;
+  letter-spacing: 0.2px;
+}
+
+.need_write > li > div {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #444;
+  letter-spacing: 0.2px;
+  width: 850px;
+  height: 350px;
+  margin: 0;
+  padding: 20px;
+  border: 0;
+}
+
+.need_write > li > div > div {
+  width: 100%;
+  height: 310px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 20px;
+  overflow: auto;
+}
+
+.need_write > li:nth-of-type(4) {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.need_write > li:nth-of-type(4) > span {
+  width: 150px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.need_write > li:nth-of-type(4) > label {
+  width: 850px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.need_write > li:nth-of-type(4) > label > input {
+  width: 280px;
+  height: 30px;
+  text-indent: 0px;
+  border: 1px solid #ccc;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  text-indent: 10px;
+}
+
+.need_write > li:nth-of-type(4) > label > label {
+  width: 40px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c0c0c0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 0.2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.need_write > li:nth-of-type(4) > label > label > input {
+  display: none;
+}
+
+.need_write > li:nth-of-type(4) > label > button {
+  width: 50px;
+  height: 30px;
+  text-indent: 0px;
+  border: 1px solid #ddd;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  cursor: pointer;
+  background-color: #fafafa;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #555;
+  letter-spacing: 0.2px;
+  text-indent: 7px;
+  margin-left: 5px;
+}
+
+.need_write > li:nth-of-type(5) > span {
+  width: 150px;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.need_write > li:nth-of-type(5) > label > textarea {
+  width: 800px;
+  height: 320px;
+  text-indent: 0px;
+  border: 1px solid #ccc;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  text-indent: 10px;
+  
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #444;
+  letter-spacing: 0.2px;
+}
+
+.write_qa_btn > span {
+  width: auto;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  flex-flow : row nowrap;
+      justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.write_qa_btn > span > input {
+  width: 110px;
+  height: 40px;
+  text-indent: 0px;
+  border: 0;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #444;
+  letter-spacing: 0.2px;
+  letter-spacing: 0.5px;
+}
+
+.write_qa_btn > span > input:nth-of-type(1) {
+  background-color: #555;
+  color: white;
+  margin-right : 15px;
+}
+
+.write_qa_btn > span > input:nth-of-type(2) {
+  background-color: #555;
+  color: white;
+}
+
+.write_qa_btn > span > input:nth-of-type(1):hover {
+  background-color: #444;
+}
+
+.write_qa_btn > span > input:nth-of-type(2):hover {
+  background-color: #444;
+}
+
+/*input 조절 부분*/
+.need_write > li > label > input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #333;
+  letter-spacing: 0.2px;
+}
+
+.need_write > li:nth-of-type(1) > label > input {
+  width: 800px;
+  height: 30px;
+  text-indent: 0px;
+  border: 1px solid #ccc;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  text-indent: 10px;
+}
+
+.need_write > li:nth-of-type(2) > label > input {
+  width: 130px;
+  height: 30px;
+  text-indent: 0px;
+  border: 1px solid #ccc;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  text-indent: 10px;
+}
+
+.need_write > li:nth-of-type(3) > label > input {
+  width: 260px;
+  height: 30px;
+  text-indent: 0px;
+  border: 1px solid #ccc;
+  letter-spacing: 0.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0;
+  text-indent: 10px;
+}
+
+/*버튼 조절*/
+em {
+  font-style: normal;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
